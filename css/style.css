@@ -73,6 +73,16 @@ header a {
   color: #4caf50;
 }
 
+.content2 {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.content2 p {
+  margin-bottom: 30px;
+}
+
 footer {
   background: #333;
   color: white;
