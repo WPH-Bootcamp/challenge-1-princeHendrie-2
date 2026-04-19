@@ -1,1 +1,61 @@
 /* code here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #4caf50;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.content1 {
+  background: linear-gradient(to right, #4caf50, #2ecc71);
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.content1 h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.content1 p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: white;
+  color: #4caf50;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
